@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2017-09-19T09:28:47.899Z",
+	"__export_date": "2017-09-20T07:18:27.253Z",
 	"__export_source": "insomnia.desktop.app:v5.8.4",
 	"resources": [
 		{
@@ -42,7 +42,7 @@
 					"hostOnly": true,
 					"domain": "localhost",
 					"lastAccessed": "2017-08-20T19:49:18.290Z",
-					"id": "32293999243033933"
+					"id": "9698637160058363"
 				},
 				{
 					"creation": "2017-08-20T19:47:58.964Z",
@@ -55,7 +55,7 @@
 					"hostOnly": true,
 					"domain": "localhost",
 					"lastAccessed": "2017-08-20T19:49:18.291Z",
-					"id": "25959106815853894"
+					"id": "13579579387382545"
 				}
 			],
 			"_type": "cookie_jar"
@@ -498,9 +498,9 @@
 		{
 			"_id": "req_7849f4c49f6346c393a74f036823c796",
 			"parentId": "fld_e61698b9da3a400490b09a3eb3586364",
-			"modified": 1505730716041,
+			"modified": 1505890162625,
 			"created": 1503259593255,
-			"url": "http://localhost:8000/sellers/1",
+			"url": "http://localhost:8000/sellers/10",
 			"name": "Show",
 			"description": "",
 			"method": "GET",
@@ -509,6 +509,225 @@
 			"headers": [],
 			"authentication": {},
 			"metaSortKey": -1503259123945,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_f0fc5c472ff1436cbbcaee1e67926d48",
+			"parentId": "fld_e61698b9da3a400490b09a3eb3586364",
+			"modified": 1505814906686,
+			"created": 1505814870110,
+			"url": "http://localhost:8000/sellers/4/transactions",
+			"name": "Show-Transactions",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1503258925809.5,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_d34e33d0f1d54f3e855b1ac0c54990a5",
+			"parentId": "fld_e61698b9da3a400490b09a3eb3586364",
+			"modified": 1505815119700,
+			"created": 1505815105913,
+			"url": "http://localhost:8000/sellers/4/categories",
+			"name": "Show-Categories",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1503258826741.75,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_1fd6648161464ffeb30f4c1a47e3ae10",
+			"parentId": "fld_e61698b9da3a400490b09a3eb3586364",
+			"modified": 1505815416873,
+			"created": 1505815393070,
+			"url": "http://localhost:8000/sellers/4/buyers",
+			"name": "Show-Buyers",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1503258777207.875,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_4b7c68e09065481cade2a38ba81dae11",
+			"parentId": "fld_e61698b9da3a400490b09a3eb3586364",
+			"modified": 1505891003988,
+			"created": 1505815692644,
+			"url": "http://localhost:8000/sellers/4/products",
+			"name": "Show-Products",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1503258752440.9375,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_aa560af15b19479a8e0b2822bf32bd26",
+			"parentId": "fld_e61698b9da3a400490b09a3eb3586364",
+			"modified": 1505878935558,
+			"created": 1505816267217,
+			"url": "http://localhost:8000/sellers/4/products",
+			"name": "Store-Products",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": [
+					{
+						"name": "name",
+						"value": "My Product 2",
+						"id": "pair_f0b0cfd4dc814b2d839912c92927c53f",
+						"disabled": false
+					},
+					{
+						"name": "description",
+						"value": "My Product 2",
+						"id": "pair_bca0df055cec45f9abe90580a2622872",
+						"disabled": false
+					},
+					{
+						"name": "quantity",
+						"value": "1",
+						"id": "pair_83b8b97308e049849588f819f8a7f29d",
+						"disabled": false
+					},
+					{
+						"name": "image",
+						"value": "",
+						"id": "pair_b676490a63104b2aa5fd6ebfbc950746",
+						"disabled": false,
+						"type": "file",
+						"fileName": "/home/ahmad/Pictures/aibella.png"
+					}
+				]
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "multipart/form-data",
+					"id": "pair_0db22e95da264f87a33c3ccbc43ad677"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1503258740057.4688,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_8f9668fe77d242ff9f1d8d80de88cdbd",
+			"parentId": "fld_e61698b9da3a400490b09a3eb3586364",
+			"modified": 1505879676000,
+			"created": 1505817000917,
+			"url": "http://localhost:8000/sellers/4/products/1001",
+			"name": "Put-Products",
+			"description": "",
+			"method": "PUT",
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"name": "name",
+						"value": "My Product",
+						"id": "pair_f0b0cfd4dc814b2d839912c92927c53f",
+						"disabled": false
+					},
+					{
+						"name": "description",
+						"value": "My Product",
+						"id": "pair_bca0df055cec45f9abe90580a2622872",
+						"disabled": false
+					},
+					{
+						"name": "quantity",
+						"value": "1",
+						"id": "pair_83b8b97308e049849588f819f8a7f29d",
+						"disabled": false
+					},
+					{
+						"name": "status",
+						"value": "available",
+						"id": "pair_68b22a124b0740ca98009e9b2dfe3154",
+						"disabled": true
+					}
+				]
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"id": "pair_0db22e95da264f87a33c3ccbc43ad677"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1503258733865.7344,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_d9689128b5884fd492f1ff005dd2a14c",
+			"parentId": "fld_e61698b9da3a400490b09a3eb3586364",
+			"modified": 1505880404312,
+			"created": 1505880112488,
+			"url": "http://localhost:8000/sellers/4/products/1002",
+			"name": "Put-Delete",
+			"description": "",
+			"method": "DELETE",
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": []
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"id": "pair_0db22e95da264f87a33c3ccbc43ad677"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1503258730769.8672,
 			"settingStoreCookies": true,
 			"settingSendCookies": true,
 			"settingDisableRenderRequestBody": false,
@@ -762,9 +981,9 @@
 		{
 			"_id": "req_d1c0bcada7724282bd3f2681d6dfdd34",
 			"parentId": "fld_8c63a14a726b49329c969aafdd3a7ed6",
-			"modified": 1505804359481,
+			"modified": 1505891128565,
 			"created": 1505804347732,
-			"url": "http://localhost:8000/products/1",
+			"url": "http://localhost:8000/products/535",
 			"name": "Show",
 			"description": "",
 			"method": "GET",
@@ -773,6 +992,142 @@
 			"headers": [],
 			"authentication": {},
 			"metaSortKey": -1505802025733,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_a3263c59ada9488b9f79c60ee55718c8",
+			"parentId": "fld_8c63a14a726b49329c969aafdd3a7ed6",
+			"modified": 1505890320263,
+			"created": 1505881062004,
+			"url": "http://localhost:8000/products/1/transactions",
+			"name": "Show-Transactions",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1505800874283.5,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_8d222a899225462bbfadb594eecb57b3",
+			"parentId": "fld_8c63a14a726b49329c969aafdd3a7ed6",
+			"modified": 1505881392479,
+			"created": 1505881376122,
+			"url": "http://localhost:8000/products/10/buyers",
+			"name": "Show-Buyers",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1505800298558.75,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_a0e737412ce6416fbece55533743227b",
+			"parentId": "fld_8c63a14a726b49329c969aafdd3a7ed6",
+			"modified": 1505881773271,
+			"created": 1505881755064,
+			"url": "http://localhost:8000/products/10/categories",
+			"name": "Show-Categories",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1505800010696.375,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_970c192455f04ca08dedb5b5acbb8275",
+			"parentId": "fld_8c63a14a726b49329c969aafdd3a7ed6",
+			"modified": 1505885843832,
+			"created": 1505885642383,
+			"url": "http://localhost:8000/products/10/categories/10",
+			"name": "Put-Categories",
+			"description": "",
+			"method": "PUT",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1505799866765.1875,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_a990c432faf045719e4e6157b3d150f8",
+			"parentId": "fld_8c63a14a726b49329c969aafdd3a7ed6",
+			"modified": 1505890382779,
+			"created": 1505888270823,
+			"url": "http://localhost:8000/products/10/categories/10",
+			"name": "Delete-Categories",
+			"description": "",
+			"method": "DELETE",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1505799848773.789,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_7ddfd5fc4d9a4355855f4f5c8188a503",
+			"parentId": "fld_8c63a14a726b49329c969aafdd3a7ed6",
+			"modified": 1505891661725,
+			"created": 1505889741817,
+			"url": "http://localhost:8000/products/535/buyers/6/transactions",
+			"name": "Store-Transactions",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"name": "quantity",
+						"value": "1",
+						"id": "pair_4718336b62094011911a181e9e8bdf33",
+						"disabled": false
+					}
+				]
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"id": "pair_2be2f286f8594cbd85e7b7c6f0ae56b0"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1505799830782.3906,
 			"settingStoreCookies": true,
 			"settingSendCookies": true,
 			"settingDisableRenderRequestBody": false,
