@@ -10,6 +10,7 @@
 ## How To
 
 - Setup the database connection in .env file
+- Do not forget to set APP_KEY inside .env file : php artisan key:generate
 - Run : composer install
 - Run : php artisan migrate --seed
 
