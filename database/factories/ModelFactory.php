@@ -22,7 +22,7 @@ $factory->define(App\Models\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
         'verified' => $verified = $faker->randomElement([App\Models\User::VERIFIED_USER, App\Models\User::UNVERIFIED_USER]),
      	'verification_token' => $verified = App\Models\User::VERIFIED_USER ? null : App\Models\User::generateVerificationCode(),
-     	'admin' => $verified = $faker->randomElement([App\Models\User::ADMIN_USER, App\Models\User::REGULAR_USER]),
+     	'admin' => $admin = $faker->randomElement([App\Models\User::ADMIN_USER, App\Models\User::REGULAR_USER]),
     ];
 });
 
