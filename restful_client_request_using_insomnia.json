@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2017-09-20T08:04:45.282Z",
+	"__export_date": "2017-09-20T11:29:54.836Z",
 	"__export_source": "insomnia.desktop.app:v5.8.4",
 	"resources": [
 		{
@@ -30,34 +30,34 @@
 		{
 			"_id": "jar_c78f64af28b04ef29a5e4ca7c74b2d09",
 			"parentId": "wrk_f46ba3d969c54f3e82b55db0c3cdbd3a",
-			"modified": 1503258558291,
+			"modified": 1505894804617,
 			"created": 1502763816763,
 			"name": "Default Jar",
 			"cookies": [
 				{
 					"creation": "2017-08-20T19:47:58.963Z",
 					"key": "XSRF-TOKEN",
-					"value": "eyJpdiI6IlV6SEh1UVB2bFNNc2hnU0JPQTBHXC9BPT0iLCJ2YWx1ZSI6ImhVTEI0eXl1RXhOd0Z6MlA3U093TDVKUU44ZFwvUVFDbmczYkpsK3BtMkJuSEx6ZmcrMjFmQ3VwSktWSENaZks5VmJENFE0MGU5VFJqV3NyTGRUSGhQZz09IiwibWFjIjoiNzI1NGViMzY4ZGQwNWUzZDhmYTVkMmM3ZDI1MDkyNDViNjYxMWJjZDhmMTRmY2FlYjdlY2EyNTc5NTg1MzhkNCJ9",
-					"expires": "2017-08-20T21:49:18.000Z",
+					"value": "eyJpdiI6IitOM1lXUlVmZlJ0MVJHallHcXpzMFE9PSIsInZhbHVlIjoiMjQ3U2p0bk51clc1Q25jWU1qTnIxa0NGUlB1VlYySHBxTWF6cjBQZzR5a3AzNmdrSlNQM3ppRnBmTEwrdUM5NFpGWkhSZEhER1g0OEVIUzZiam95REE9PSIsIm1hYyI6IjhiYWE5MGM0ZDg4OTVjOTNmZTk3NzcxZDBjZTkxYjNhNDFlN2QxMjMzOGQzMmVjNWQ1YzhhYjM5YmNmOGQxYTYifQ%3D%3D",
+					"expires": "2017-09-20T10:06:44.000Z",
 					"maxAge": 7200,
 					"path": "/",
 					"hostOnly": true,
 					"domain": "localhost",
-					"lastAccessed": "2017-08-20T19:49:18.290Z",
-					"id": "9698637160058363"
+					"lastAccessed": "2017-09-20T08:06:44.616Z",
+					"id": "05578257434031553"
 				},
 				{
 					"creation": "2017-08-20T19:47:58.964Z",
 					"key": "laravel_session",
-					"value": "eyJpdiI6IjZ0NERwalwvSWtLOUlBTzdyQ0g0cmtnPT0iLCJ2YWx1ZSI6IkxkVTk0eVZjS2E3ejNWenYzWEpMSzJ0WnpYOG9TRjBnRXhYaGtXZTRxa2hZbGJqUnVvTUw1ZHpRa1lPK3BodGJCdnp3SXRFWXpQUndOQW5NVjI2WG1nPT0iLCJtYWMiOiJmYzA2ZDYxYTI3YzNmNTlkZjNiY2M5ZDllMDY4NDc2NjYzMTgzZGY3MWVmYmU4YjUwNDI5ZGM3OTk0ZDQ5YTc3In0%3D",
-					"expires": "2017-08-20T21:49:18.000Z",
+					"value": "eyJpdiI6InJiUzN2WUFGR3lJREsybXFFdk15V3c9PSIsInZhbHVlIjoidkRscXhqZDdZc1Z2S1JrZ1wvZ0RKdHNGcGZ2XC91OTAxVll1TXlHblJwWnFzaThpb2VuWWxsbFhRQk1EdmtSS2VWTVRoMjFlK2JaTFIyVlJ5Um82UlByZz09IiwibWFjIjoiZDcxYTBkMDY1NjFmZTI3OTA3OThlMzM4MzQxOTNhMmM3NmRlODhmNTYwYTUwYmRjNDBmZGM1N2M0YzIwNGRiNCJ9",
+					"expires": "2017-09-20T10:06:44.000Z",
 					"maxAge": 7200,
 					"path": "/",
 					"httpOnly": true,
 					"hostOnly": true,
 					"domain": "localhost",
-					"lastAccessed": "2017-08-20T19:49:18.291Z",
-					"id": "13579579387382545"
+					"lastAccessed": "2017-09-20T08:06:44.616Z",
+					"id": "002121276671958716"
 				}
 			],
 			"_type": "cookie_jar"
@@ -191,9 +191,9 @@
 		{
 			"_id": "req_36680fbc88714839855a770876066c46",
 			"parentId": "fld_4164092a2911496d938aeb7ae57432e5",
-			"modified": 1505894670930,
+			"modified": 1505905560571,
 			"created": 1502763962174,
-			"url": "{{ base_url  }}/users/1",
+			"url": "{{ base_url  }}/users/6",
 			"name": "Show",
 			"description": "",
 			"method": "GET",
@@ -201,7 +201,7 @@
 			"parameters": [],
 			"headers": [],
 			"authentication": {},
-			"metaSortKey": -1502763962174,
+			"metaSortKey": -1502764298802,
 			"settingStoreCookies": true,
 			"settingSendCookies": true,
 			"settingDisableRenderRequestBody": false,
@@ -211,7 +211,7 @@
 		{
 			"_id": "req_ccae59d5a92447cbb12ed7c488dcad8e",
 			"parentId": "fld_4164092a2911496d938aeb7ae57432e5",
-			"modified": 1505894655225,
+			"modified": 1505906783064,
 			"created": 1502764298777,
 			"url": "{{ base_url  }}/users",
 			"name": "Store",
@@ -228,7 +228,7 @@
 					},
 					{
 						"name": "email",
-						"value": "ahmad.harminto@sociolabs.io",
+						"value": "test@sociolabs.io",
 						"id": "pair_e4d5d7d0e84a4cb79346f87f632a69d6",
 						"disabled": false
 					},
@@ -265,9 +265,9 @@
 		{
 			"_id": "req_0ff62ad5d530422ab8bb53cd37399b47",
 			"parentId": "fld_4164092a2911496d938aeb7ae57432e5",
-			"modified": 1505894666864,
+			"modified": 1505905589201,
 			"created": 1502766338400,
-			"url": "{{ base_url  }}/users/202",
+			"url": "{{ base_url  }}/users/6",
 			"name": "Put",
 			"description": "",
 			"method": "PUT",
@@ -278,11 +278,11 @@
 						"name": "name",
 						"value": "Ahmad Harminto",
 						"id": "pair_63a32922aac74f84bda3c8c9b210298d",
-						"disabled": false
+						"disabled": true
 					},
 					{
 						"name": "email",
-						"value": "ahmad.harminto@sociolabs.io",
+						"value": "ahmad@sociolabs.io",
 						"id": "pair_e4d5d7d0e84a4cb79346f87f632a69d6",
 						"disabled": true
 					},
@@ -325,9 +325,9 @@
 		{
 			"_id": "req_9d6dfc0c671a47c991347d4fde3f91c9",
 			"parentId": "fld_4164092a2911496d938aeb7ae57432e5",
-			"modified": 1505894675510,
+			"modified": 1505904130520,
 			"created": 1502766696071,
-			"url": "{{ base_url  }}/users/1",
+			"url": "{{ base_url  }}/users/1001",
 			"name": "Delete",
 			"description": "",
 			"method": "DELETE",
@@ -351,6 +351,46 @@
 			],
 			"authentication": {},
 			"metaSortKey": -1502763882095,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_6a8a1dc5bb934cecb5c226a6c20f705f",
+			"parentId": "fld_4164092a2911496d938aeb7ae57432e5",
+			"modified": 1505897194689,
+			"created": 1505897144600,
+			"url": "{{ base_url  }}/users/verify/BzZgyth2IsFnXL1icHezDJG3bnfEDMrAhXJCWdmU",
+			"name": "Verify",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1502764298789.5,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_a2fa44382b2445d5b76958e8221c05bc",
+			"parentId": "fld_4164092a2911496d938aeb7ae57432e5",
+			"modified": 1505906280943,
+			"created": 1505905835871,
+			"url": "{{ base_url  }}/users/1/resend",
+			"name": "Resend",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1502764298783.25,
 			"settingStoreCookies": true,
 			"settingSendCookies": true,
 			"settingDisableRenderRequestBody": false,
