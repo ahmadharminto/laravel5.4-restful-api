@@ -10,6 +10,7 @@
 ## How To
 
 - Setup the database connection in .env file
+- Run : composer install
 - Run : php artisan migrate --seed
 
 ## About Laravel
