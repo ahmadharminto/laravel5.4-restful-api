@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2017-09-21T06:35:03.538Z",
+	"__export_date": "2017-09-21T08:19:12.842Z",
 	"__export_source": "insomnia.desktop.app:v5.8.4",
 	"resources": [
 		{
@@ -151,9 +151,9 @@
 		{
 			"_id": "req_4ddde31b61e744a7b6ceca4c39f23fe0",
 			"parentId": "wrk_f46ba3d969c54f3e82b55db0c3cdbd3a",
-			"modified": 1505894449408,
+			"modified": 1505976972336,
 			"created": 1505718724985,
-			"url": "{{ base_url  }}/users/12",
+			"url": "{{ base_url  }}/users?sort_by=name,desc",
 			"name": "Error Handler Tester",
 			"description": "",
 			"method": "POST",
@@ -162,6 +162,26 @@
 			"headers": [],
 			"authentication": {},
 			"metaSortKey": -1505795586463,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_f0a49175ec2e49b4aaf91495be88c665",
+			"parentId": "wrk_f46ba3d969c54f3e82b55db0c3cdbd3a",
+			"modified": 1505981910753,
+			"created": 1505976959852,
+			"url": "{{ base_url  }}/users?isVerified=1&email=bru&sort_by=name,asc",
+			"name": "Filtering-Sorting Tester",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1505795586459.875,
 			"settingStoreCookies": true,
 			"settingSendCookies": true,
 			"settingDisableRenderRequestBody": false,
