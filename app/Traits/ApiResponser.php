@@ -27,6 +27,9 @@ trait ApiResponser
 		}
 
 		$transformer = $collection->first()->transformer;
+
+		$collection = $this->filterData($collection, $transformer);
+		$collection = $this->sortData($collection, $transformer);
 		$collection = $this->transformData($collection, $transformer);
 
 		return $this->successResponse($collection, $code);
@@ -50,5 +53,38 @@ trait ApiResponser
 		$transformation = fractal($data, new $transformer);
 
 		return $transformation->toArray();
+	}
+
+	protected function sortData(Collection $collection, $transformer)
+	{
+		if (request()->has('sort_by')) {
+			$value = request()->sort_by;
+			$values = explode(',', $value);
+
+			$attribute = $transformer::originalAttribute($values[0]);
+			$ascDesc = (isset($values[1])) ? $values[1] : 'asc';
+			if (!in_array($ascDesc, ['asc', 'desc'])) $ascDesc = 'asc';
+			
+			$sortFunction = ($ascDesc === 'asc') ? 'sortBy' : 'sortByDesc';
+
+			$collection = $collection->{$sortFunction}->{$attribute};
+		}
+
+		return $collection;
+	}
+
+	protected function filterData(Collection $collection, $transformer)
+	{
+		foreach (request()->query() as $query => $value) {
+		 	$attribute = $transformer::originalAttribute($query);
+		 	if (isset($attribute, $value)) {
+		 		// $collection = $collection->where($attribute, $value);
+		 		$collection = $collection->filter(function ($item) use ($attribute, $value) {
+					return false !== stristr($item->{$attribute}, $value);
+				});
+		 	}
+		}
+
+		return $collection;
 	}
 }
