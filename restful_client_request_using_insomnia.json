@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2017-09-20T11:29:54.836Z",
+	"__export_date": "2017-09-21T06:35:03.538Z",
 	"__export_source": "insomnia.desktop.app:v5.8.4",
 	"resources": [
 		{
@@ -560,9 +560,9 @@
 		{
 			"_id": "req_f0fc5c472ff1436cbbcaee1e67926d48",
 			"parentId": "fld_e61698b9da3a400490b09a3eb3586364",
-			"modified": 1505894593836,
+			"modified": 1505975628291,
 			"created": 1505814870110,
-			"url": "{{ base_url  }}/sellers/4/transactions",
+			"url": "{{ base_url  }}/sellers/6/transactions",
 			"name": "Show-Transactions",
 			"description": "",
 			"method": "GET",
@@ -1077,9 +1077,9 @@
 		{
 			"_id": "req_8d222a899225462bbfadb594eecb57b3",
 			"parentId": "fld_8c63a14a726b49329c969aafdd3a7ed6",
-			"modified": 1505894489326,
+			"modified": 1505975682463,
 			"created": 1505881376122,
-			"url": "{{ base_url  }}/products/10/buyers",
+			"url": "{{ base_url  }}/products/1/buyers",
 			"name": "Show-Buyers",
 			"description": "",
 			"method": "GET",

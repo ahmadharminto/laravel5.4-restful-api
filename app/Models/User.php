@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Transformers\UserTransformer;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -9,6 +10,8 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {
     use Notifiable, SoftDeletes;
+
+    public $transformer = UserTransformer::class;
 
     const VERIFIED_USER = '1';
     const UNVERIFIED_USER = '0';
