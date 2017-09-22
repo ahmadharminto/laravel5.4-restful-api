@@ -31,5 +31,12 @@ class AuthServiceProvider extends ServiceProvider
         Passport::tokensExpireIn(Carbon::now()->addMinutes(30));
         Passport::refreshTokensExpireIn(Carbon::now()->addDays(30));
         Passport::enableImplicitGrant();
+
+        Passport::tokensCan([
+            'purchase-product' => 'Create a new transaction for a specific product',
+            'manage-products' => 'CRUD products',
+            'manage-account' => 'Read / modify your user account',
+            'read-general' => 'Read general information : purchasing, selling, transactions'
+        ]);
     }
 }
