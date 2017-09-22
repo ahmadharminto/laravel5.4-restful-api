@@ -20,7 +20,10 @@ class TransformInput
 
         foreach ($request->request->all() as $input => $value) {
             $transformedInput[$transformer::originalAttribute($input)] = $value;
+            \Log::info($transformer::originalAttribute($input));
         }
+
+        \Log::info($transformedInput);
 
         $request->replace($transformedInput);
 

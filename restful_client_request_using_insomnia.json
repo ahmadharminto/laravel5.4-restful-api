@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2017-09-21T11:14:52.260Z",
+	"__export_date": "2017-09-22T07:44:53.085Z",
 	"__export_source": "insomnia.desktop.app:v5.8.4",
 	"resources": [
 		{
@@ -17,11 +17,15 @@
 		{
 			"_id": "env_6a78cc5f37454916a5dec1ace40c4841",
 			"parentId": "wrk_f46ba3d969c54f3e82b55db0c3cdbd3a",
-			"modified": 1505894429062,
+			"modified": 1506066055839,
 			"created": 1502763802164,
 			"name": "Base Environment",
 			"data": {
-				"base_url": "http://localhost:8000"
+				"base_url": "http://localhost:8000",
+				"client_credentials_granttype": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImMzMmE3Yzk2ZDJlZWVhMzM5NmFiNmNkZmYyZWU4YjljZWUwYzkyYmVmMjQ3OWFkZTA4MzQzYzc3Mjc1ZjE3NzU1ZjU2ZDAyMjg4OTVkZTZjIn0.eyJhdWQiOiIxIiwianRpIjoiYzMyYTdjOTZkMmVlZWEzMzk2YWI2Y2RmZjJlZThiOWNlZTBjOTJiZWYyNDc5YWRlMDgzNDNjNzcyNzVmMTc3NTVmNTZkMDIyODg5NWRlNmMiLCJpYXQiOjE1MDYwNjQ1MzAsIm5iZiI6MTUwNjA2NDUzMCwiZXhwIjoxNTA2MDY2MzMwLCJzdWIiOiIiLCJzY29wZXMiOltdfQ.qrYhUm5PzFuc1FJXxf2HmJOMQ6JgYVz2gEeXydM2sWVC37XWlZb6mZUgZmnvOuVOvaFPVJ66uNFiow0x1jsMm3YphdwB-sMK4_ingFFpSzJ_RIZujODCvOVCkZq8G6a9vjT91bPDWY7TGMniqdZxHu0az3Zu78jSeOWYZSESyIcZ29NeeFEngYyxBXCna0zAEMh8AEfJLV7VpNSw0--1mxs6Wkjr2uRDnAF2nEhDv4jtyvr1kLRPdji-CFhdrzrb0sGjarpv6byVKxxjupnJjkpxyYGZ8AfAxvwfyqn6r59XO_muu4WE4sf4fxWA_E8SZKHVEylQ9f3-YDMiroJ58eUexWx2zBPzwr_fQ623zRuBtWbu0vkvJwfEIur_KeiU_wRdm0l2rpi_Xqkf7COXnnLpRrfySSO_B3MIeMUUNMAIitOPudcKlTN95oPVZWeIF6nnc5p17mptL5K5SZnq8YaOBGVc7C_GzDMly-dmhrNA9QrOMXJp37LTOmsJXRY6IvwdgDmL8hklHrvkZnRJ6TyvEGw0znsbdZoEdDbgdtTliIjJRksl-RrSMvVIY5VtK7ZGskhpywOpZjq8r6kTXx39Ud6--8Y5CG5DP4ZJdl6T2fFAGhucO7OtZz_ieSYJYz5auCvjzEXf0EP3k9HM6GPL_7iSORUs8ZGVKWYtuhw",
+				"password_granttype": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjQ3Y2U0NzUxYjQ2MjE3YzRjMmQ1ZTQ3MjgwZTZmMzMwOWZkMjJmYjU5YjJiM2FlMmNhOWU2ZmFlMGE2MDdlMjkxY2UwMzdlZjYzMGFiYTVhIn0.eyJhdWQiOiI0IiwianRpIjoiNDdjZTQ3NTFiNDYyMTdjNGMyZDVlNDcyODBlNmYzMzA5ZmQyMmZiNTliMmIzYWUyY2E5ZTZmYWUwYTYwN2UyOTFjZTAzN2VmNjMwYWJhNWEiLCJpYXQiOjE1MDYwNjMxMjAsIm5iZiI6MTUwNjA2MzEyMCwiZXhwIjoxNTA2MDYzMTQ5LCJzdWIiOiI0NzciLCJzY29wZXMiOltdfQ.A50IzzLYt5JAeXwtW87KfgsiLVEA747cu-MrIdoPZdSTKiVCskOxlrIQ_zKN2zcB-DxTlIIZBjb6m1fPoY4P5toyC1NM_hzEaCNTxeNXHeMWGGh3d6F73VDyAwt4fCEUu442gP-LWs9YPuSoIWcL1EJfhNFF4Yjqn5uNn5G-3OEstc9fnNzgUw2xCP4JESj4JZZpjiLph1RuF3h_f5hkma3RAlkq0tBkalNTP3WiUWVXwTi2v3N0Rfn1En0B_IKUePLCQi-TQeEdleTy7yJFi9V8EnznOVqfTopAvXGRgt6CEpSdoiwrD-TzNoNn7NfXL6y5fNhEa9BIaGLX_7lA_23TKuPKz6VSCFIsEeMb-U9jEKhQ32MChMnKrDv0ZVZJwnSd-k3PZakU_NuzEebIbEFVa41EwUahF-3YAzznIF9f9aEnecrg9MBLbEiSvM_uuZ_eilpjLW92wnFKT1_l6w-UJkDNmIQ-CGj6IYL3WfUrV-uuGcXOVTNQVaAyao1skPEJn4W-JLaXMdpEoeQAp1ckkAz2YNWXwLCfFvmK-D5eKovgT4OkzO6G8hSvs4Qd_-mUNJp5zZgZ7J00_MgyFokhfHQmnnArnLRk-ZyJwGhGaYKcmeYZhOTz1Hu2sOCfHEDawp9LUih_or4vFIpn4uTy2IFQsxGCQ8uUPCvAwg8",
+				"authorization_code_granttype": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjZiNjVjMDViYjM0NWI5MzNmZjY2OGU2ZTNiZmJkNGVlOGMxZDZhYzFlNmYxYjU0NjRkZTk0OTAxOWU4NDYxMWQ4MTEwNjczN2UwNDdmOGU2In0.eyJhdWQiOiIyIiwianRpIjoiNmI2NWMwNWJiMzQ1YjkzM2ZmNjY4ZTZlM2JmYmQ0ZWU4YzFkNmFjMWU2ZjFiNTQ2NGRlOTQ5MDE5ZTg0NjExZDgxMTA2NzM3ZTA0N2Y4ZTYiLCJpYXQiOjE1MDYwNjU2MTIsIm5iZiI6MTUwNjA2NTYxMiwiZXhwIjoxNTA2MDY3NDEyLCJzdWIiOiIxMDAxIiwic2NvcGVzIjpbXX0.lsyHVnviWf32JvoSXNuFAo2ff2XzBR65bFJOhmBjAYfwJi7IVE2o3JJaDGy4s6b5oOvBiQDtzcCR6AVEY9LH84g8OJ0Qc5fw9SFBcRLck8nv6obbdt1GJar_Qb7_qA2LeNdiP2D5imam9x3XgwgG0LIaZEiUBVbdWl40-Fwa7drUg691BL2a67hVosgQg1I6tC_yBRFIXQxdgpQ0zISW60ZlGCD08k-sVw50O_9zxUKD90edPAxjv40FSxW1sslnGbNfuAylAp6kJDhTYT8YkdHAfJwa00_oYkPE-ohtuO2HwB6zMRhK2y_QYA2lmtNlDfe0objPUMbJ164ms4pftZy5BlEdGS0taMLN1Zv4TvLWRyyc4KdD9C5uh8BbJWeFHrpPMm1W6PFFb16tjAD7aVvKnlunbDTXHtdcQJvJaO5vX3BY3EE_FC2mbGz4N17z8-7XfHaCpRSZJbX2tOGxOt2Vm_slkWn8zdAQKe0uFIBq1XZWVMu4NzukDgm7V9WlZC0bNTL5hRmpBn7EwjVoNMnGrM9nJECWJsy6WBTYU6bZ6G_vA8U6MFPpHVt3L19LIW5lY53IFW3oFhe1kQyIKbbgK49L4jawfkQ_z1jnDC-ccNvt20a00GQ7Nz8DNwqB0utc_X6vy1gCXh9TtLxmAOcmEPwBYzpSbqgbAkiqtEg",
+				"personal_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjcwZDdkMjU0NzhiNThhOGM2NTczNjA0ZDVhNjRiMGFjMDE5MGRlNDA2NjEzYjA5MDE3NzBlNWUxNmRkOTcwNzgwMjkwNWZlNTRjMzdlMzUzIn0.eyJhdWQiOiIzIiwianRpIjoiNzBkN2QyNTQ3OGI1OGE4YzY1NzM2MDRkNWE2NGIwYWMwMTkwZGU0MDY2MTNiMDkwMTc3MGU1ZTE2ZGQ5NzA3ODAyOTA1ZmU1NGMzN2UzNTMiLCJpYXQiOjE1MDYwNjU5OTAsIm5iZiI6MTUwNjA2NTk5MCwiZXhwIjoxNTM3NjAxOTkwLCJzdWIiOiIxMDAxIiwic2NvcGVzIjpbXX0.oFXthNiCzN1jXMzqhFu9HIpRPwpFOgW9x6u8JwU9cAorvq_wk1D2jjdsnAgIMaQWiW82S4tLWScPkX5tdbLQbfSbUs53O2luOxgEjfK3kiqReOuHApIBRSdjDjau7UmSj3KCTJWsxWK4iByTm1V1CLvPILEynO73EEzqAlXXClPHCVhAcDNU0KpSEasxvwgW5AGam3QgQ6ocjlJIJU83HeedlQ5yXDb48VokIcREXd0kUObeXNiN50021vawasbfYnzEABn0HoAF0_dEnrPW03G-IL5OG3qPY-Xs1Q1GeTNsWN2HNAg6jPIVNS13UFluTVUXFVstKczGyU0JSgD0esYm4Ki69ZFdYb22ZbRBKBgPxnCFQ8YbnlHwUgjMYOh3egffruKxWlgn48qJEcyZdF27L6XPBZxVcH-AI0DpDK1Q6OseAryHl6943dX_oKYCIy4dZndI_g-b-KrYIIEsONMokuQqlDY7PSZLGypKFd3U57wYILPSGl6yCc00zOfftkdBdXKsQRbDR2_F_ad2eT59WDeoB7z_S8Plwp2YIIRu4DuYFKv9yGyNqMlHL0tf4o-FXZFhRdZIUxCodJenpqYvP2hzrLZjfKqm5cQVyIyoFcazm99ULxwAfVVmpOChJMhiaLdhKIqNW_JI0hZWzLlhxGGp-DKnW7uYQBmhCcI"
 			},
 			"color": null,
 			"isPrivate": false,
@@ -65,12 +69,12 @@
 		{
 			"_id": "fld_4164092a2911496d938aeb7ae57432e5",
 			"parentId": "wrk_f46ba3d969c54f3e82b55db0c3cdbd3a",
-			"modified": 1502763789804,
+			"modified": 1506033934627,
 			"created": 1502763789804,
 			"name": "Users",
 			"description": "",
 			"environment": {},
-			"metaSortKey": -1502763789804,
+			"metaSortKey": -1503134986853.25,
 			"_type": "request_group"
 		},
 		{
@@ -129,6 +133,17 @@
 			"_type": "request_group"
 		},
 		{
+			"_id": "fld_3e96b2d3c2f142b78459cfe72f2ae337",
+			"parentId": "wrk_f46ba3d969c54f3e82b55db0c3cdbd3a",
+			"modified": 1506033930726,
+			"created": 1506033926328,
+			"name": "OAuth",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1503011254503.5,
+			"_type": "request_group"
+		},
+		{
 			"_id": "req_d3cd526d9ef548d9a338ed43c06cc4df",
 			"parentId": "wrk_f46ba3d969c54f3e82b55db0c3cdbd3a",
 			"modified": 1505894441241,
@@ -171,9 +186,9 @@
 		{
 			"_id": "req_f0a49175ec2e49b4aaf91495be88c665",
 			"parentId": "wrk_f46ba3d969c54f3e82b55db0c3cdbd3a",
-			"modified": 1505989734307,
+			"modified": 1506063578782,
 			"created": 1505976959852,
-			"url": "{{ base_url  }}/sellers?per_page=10&page=1&sort_by=email&isVerified=1",
+			"url": "{{ base_url  }}/users?per_page=10&page=1&sort_by=email&isVerified=1",
 			"name": "Filtering-Sorting Tester",
 			"description": "",
 			"method": "GET",
@@ -191,7 +206,7 @@
 		{
 			"_id": "req_09a529883bba44f8a2b512000033fa44",
 			"parentId": "fld_4164092a2911496d938aeb7ae57432e5",
-			"modified": 1505894661446,
+			"modified": 1506047858783,
 			"created": 1502763802016,
 			"url": "{{ base_url  }}/users",
 			"name": "Index",
@@ -199,7 +214,13 @@
 			"method": "GET",
 			"body": {},
 			"parameters": [],
-			"headers": [],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "{{ password_granttype }}",
+					"id": "pair_06068e54e111449d972c4a2fb4e0285d"
+				}
+			],
 			"authentication": {},
 			"metaSortKey": -1502764298827,
 			"settingStoreCookies": true,
@@ -231,7 +252,7 @@
 		{
 			"_id": "req_ccae59d5a92447cbb12ed7c488dcad8e",
 			"parentId": "fld_4164092a2911496d938aeb7ae57432e5",
-			"modified": 1505989171145,
+			"modified": 1506064930510,
 			"created": 1502764298777,
 			"url": "{{ base_url  }}/users",
 			"name": "Store",
@@ -244,25 +265,25 @@
 						"name": "name",
 						"value": "Ahmad Harminto",
 						"id": "pair_63a32922aac74f84bda3c8c9b210298d",
-						"disabled": true
+						"disabled": false
 					},
 					{
 						"name": "email",
-						"value": "test@sociolabs.io",
+						"value": "ahmad.harminto@sociolabs.io",
 						"id": "pair_e4d5d7d0e84a4cb79346f87f632a69d6",
-						"disabled": true
+						"disabled": false
 					},
 					{
 						"name": "password",
 						"value": "secret",
 						"id": "pair_c9dbc2acc645499aad3e6d9a8fc1c44c",
-						"disabled": true
+						"disabled": false
 					},
 					{
 						"name": "password_confirmation",
 						"value": "secret",
 						"id": "pair_69c64610ab3e4db0a18d4e29ce7d51f9",
-						"disabled": true
+						"disabled": false
 					}
 				]
 			},
@@ -272,6 +293,11 @@
 					"name": "Content-Type",
 					"value": "application/x-www-form-urlencoded",
 					"id": "pair_6e0ca1b110bf4faeb5a52b0d73ae469d"
+				},
+				{
+					"name": "Authorization",
+					"value": "{{ client_credentials_granttype  }}",
+					"id": "pair_ee0200a81fb04e67b7cd01c6ec471a73"
 				}
 			],
 			"authentication": {},
@@ -380,9 +406,9 @@
 		{
 			"_id": "req_6a8a1dc5bb934cecb5c226a6c20f705f",
 			"parentId": "fld_4164092a2911496d938aeb7ae57432e5",
-			"modified": 1505897194689,
+			"modified": 1506065275767,
 			"created": 1505897144600,
-			"url": "{{ base_url  }}/users/verify/BzZgyth2IsFnXL1icHezDJG3bnfEDMrAhXJCWdmU",
+			"url": "{{ base_url  }}/users/verify/aZYi3QgrU6aplNp3HypwmihE6xRhhD0oEsO62pG7",
 			"name": "Verify",
 			"description": "",
 			"method": "GET",
@@ -813,7 +839,7 @@
 		{
 			"_id": "req_db0f6ef144284df3992270645065b1f7",
 			"parentId": "fld_fefb16f7310640009abbeb2010afa3f4",
-			"modified": 1505894532244,
+			"modified": 1506047824527,
 			"created": 1505795600593,
 			"url": "{{ base_url  }}/categories",
 			"name": "Index",
@@ -821,7 +847,14 @@
 			"method": "GET",
 			"body": {},
 			"parameters": [],
-			"headers": [],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "{{ client_credentials_granttype }}",
+					"id": "pair_3763d177a99d40d8aa7621aa75fa03ec",
+					"disabled": false
+				}
+			],
 			"authentication": {},
 			"metaSortKey": -1505795600593,
 			"settingStoreCookies": true,
@@ -833,7 +866,7 @@
 		{
 			"_id": "req_19974dc9cc874984abb1c17edf16d85b",
 			"parentId": "fld_fefb16f7310640009abbeb2010afa3f4",
-			"modified": 1505894536039,
+			"modified": 1506047833199,
 			"created": 1505795790985,
 			"url": "{{ base_url  }}/categories/1",
 			"name": "Show",
@@ -841,7 +874,13 @@
 			"method": "GET",
 			"body": {},
 			"parameters": [],
-			"headers": [],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "{{ client_credentials_granttype }}",
+					"id": "pair_612bf9148d7544d6af444956d33bbe60"
+				}
+			],
 			"authentication": {},
 			"metaSortKey": -1505757162789,
 			"settingStoreCookies": true,
@@ -1037,7 +1076,7 @@
 		{
 			"_id": "req_80c9dfae292347a78fe4a14ffc0a246c",
 			"parentId": "fld_8c63a14a726b49329c969aafdd3a7ed6",
-			"modified": 1505894474279,
+			"modified": 1506066075744,
 			"created": 1505804328632,
 			"url": "{{ base_url  }}/products",
 			"name": "Index",
@@ -1045,7 +1084,13 @@
 			"method": "GET",
 			"body": {},
 			"parameters": [],
-			"headers": [],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "{{ personal_token  }}",
+					"id": "pair_779341afef45429e93fb5580b87279c2"
+				}
+			],
 			"authentication": {},
 			"metaSortKey": -1505804328632,
 			"settingStoreCookies": true,
@@ -1284,6 +1329,228 @@
 			"headers": [],
 			"authentication": {},
 			"metaSortKey": -1505804678180.75,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_8e468031b08d46749a5ba59b5feaa8ff",
+			"parentId": "fld_3e96b2d3c2f142b78459cfe72f2ae337",
+			"modified": 1506064528888,
+			"created": 1506033954803,
+			"url": "{{base_url}}/oauth/token",
+			"name": "Token client_credentials grant-type",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"name": "grant_type",
+						"value": "client_credentials",
+						"id": "pair_0e933890d7c24e439f1a83da9b9ef141",
+						"disabled": false
+					},
+					{
+						"name": "client_id",
+						"value": "1",
+						"id": "pair_2652c9d9b7e7428c939ed5cdcf545dcf",
+						"disabled": false
+					},
+					{
+						"name": "client_secret",
+						"value": "w2PQKHlVSwqN4nGn2DJJeMFEZmtcTa9f6EYA3wIc",
+						"id": "pair_e42e5b84f0a74152bb1054917a71394b",
+						"disabled": false
+					}
+				]
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"id": "pair_c895e5166e74470ab5c2c89f0793f360"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1506033954803,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_1e7d0351b46744a7805a420dccbb77ed",
+			"parentId": "fld_3e96b2d3c2f142b78459cfe72f2ae337",
+			"modified": 1506047682141,
+			"created": 1506047210201,
+			"url": "{{base_url}}/oauth/token",
+			"name": "Token password grant-type",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"name": "grant_type",
+						"value": "password",
+						"id": "pair_0e933890d7c24e439f1a83da9b9ef141",
+						"disabled": false
+					},
+					{
+						"name": "client_id",
+						"value": "4",
+						"id": "pair_2652c9d9b7e7428c939ed5cdcf545dcf",
+						"disabled": false
+					},
+					{
+						"name": "client_secret",
+						"value": "TalDVI30rbl6qVRlY2RpJvqDoA8GdnV8H3o9MiPv",
+						"id": "pair_e42e5b84f0a74152bb1054917a71394b",
+						"disabled": false
+					},
+					{
+						"name": "username",
+						"value": "adietrich@example.org",
+						"id": "pair_60e72045d6fa47ea997157eafc519806",
+						"disabled": false
+					},
+					{
+						"name": "password",
+						"value": "secret",
+						"id": "pair_4635eb5774f94b6fb4ba751e2c82e353",
+						"disabled": false
+					}
+				]
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"id": "pair_c895e5166e74470ab5c2c89f0793f360"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1505919421356.5,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_09f18628d9224d129afc43b3dd0fa5d8",
+			"parentId": "fld_3e96b2d3c2f142b78459cfe72f2ae337",
+			"modified": 1506062993842,
+			"created": 1506053412279,
+			"url": "{{base_url}}/oauth/token",
+			"name": "Token authorization-code grant-type",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"name": "grant_type",
+						"value": "authorization_code",
+						"id": "pair_0e933890d7c24e439f1a83da9b9ef141",
+						"disabled": false
+					},
+					{
+						"name": "client_id",
+						"value": "5",
+						"id": "pair_2652c9d9b7e7428c939ed5cdcf545dcf",
+						"disabled": false
+					},
+					{
+						"name": "client_secret",
+						"value": "GUKqkLVsIaVOo6OReuvVoO61CHVTUhGXGvLoLLCW",
+						"id": "pair_e42e5b84f0a74152bb1054917a71394b",
+						"disabled": false
+					},
+					{
+						"name": "redirect_uri",
+						"value": "http://localhost",
+						"id": "pair_60e72045d6fa47ea997157eafc519806",
+						"disabled": false
+					},
+					{
+						"name": "code",
+						"value": "def50200368d3164f83306128b1c172971c4a9ab072c2c254896f7c357d648158971b44d1c26bca9404b192efe9e113e27a196cf686f27206a53693f4d896f1cba41341ac1b47867bc44e818186d2c3103c63e77ae4b954074457b1d91155e07bf3854c5781173f06986926686626c2cdf561c6c5b71a87cb58198ab3414307ea97d930b3c3048c70c386a9566383d9d0f2e3f72639c028bbb163bdb0a9fc99fad2e04be26c625b2a0203e574f5ab306861d2ff8eefaf4ffdc06adf684f1cbbb0c0dceacc2156f061be68afc70090384e61d5172b218efef849a770c0de378a07bf565bb6cfde87975647766c309c0f868c98d0b67358822ad4fe88df799cd0a1c5e1eb81b708fe3ef2049d9f87174490c0a579adb1d68ce480c0d6c3695c7b9a107332b36f8fc18e6676a56b1426c09d1b3e4a5953bc642773d25e2f5e80843347e78b7e740d503dbf73718d879c419631fcc",
+						"id": "pair_4635eb5774f94b6fb4ba751e2c82e353",
+						"disabled": false
+					}
+				]
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"id": "pair_c895e5166e74470ab5c2c89f0793f360"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1505905104675.6875,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_bb8fbacdd6a045979d5c7ce39af67040",
+			"parentId": "fld_3e96b2d3c2f142b78459cfe72f2ae337",
+			"modified": 1506063108905,
+			"created": 1506062748016,
+			"url": "{{base_url}}/oauth/token",
+			"name": "Token refresh",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"name": "grant_type",
+						"value": "refresh_token",
+						"id": "pair_0e933890d7c24e439f1a83da9b9ef141",
+						"disabled": false
+					},
+					{
+						"name": "client_id",
+						"value": "4",
+						"id": "pair_2652c9d9b7e7428c939ed5cdcf545dcf",
+						"disabled": false
+					},
+					{
+						"name": "client_secret",
+						"value": "TalDVI30rbl6qVRlY2RpJvqDoA8GdnV8H3o9MiPv",
+						"id": "pair_e42e5b84f0a74152bb1054917a71394b",
+						"disabled": false
+					},
+					{
+						"name": "refresh_token",
+						"value": "def50200a7f9094be99d6dbf81a60691fd23bc76e4cb75597c4246e5205ef5d0c50f26e263c0015c70e1da67ec960fbccf1a478e8facaaed59249368a43145b1ea931a4d4735bac085dd38b075505a4665522aa5dfb994ffe1fdeb90d3aef4de1b2a2617b49cabcc03642abde1068fbd7a272606d924fb2ac1f4223bd48be75bb16771f8f4a4ffaf85b204d9377a12eb018e18f1e3c47e85a550da358151e3175ae76912ff8c8b515e6b5cd53e7289b08badc0dc2b3dee13be34c77b362c5203808039cb838a0877e3253a87aa38e253ab98e899a27adff450296af2e3719a1df4b825487148bfcf80473c4b0cdf8ef88e929d92d760b4b14ad805559b44c63d1d4b858f9210628107e4c1cdf0b8a75546c8ea793f2e9c3d18f61c92036f2fd64b74e90fe30afe11cccb1149707fab7a5c2366aa90d6d12531e666308facd836c001eea6daa19330750616578ee400ff614ee515836b914d7ea1bb18139d1b48a5ee70",
+						"id": "pair_2723e1a2fb5642ca963f82313866a2df",
+						"disabled": false
+					}
+				]
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"id": "pair_c895e5166e74470ab5c2c89f0793f360"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1505890787994.875,
 			"settingStoreCookies": true,
 			"settingSendCookies": true,
 			"settingDisableRenderRequestBody": false,
