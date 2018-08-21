@@ -11,6 +11,7 @@
 
 - Setup the database connection in .env file from .env.example
 - Do not forget to set APP_KEY inside .env file : php artisan key:generate
+- Run : php artisan config:cache
 - Run : composer install
 - Run : php artisan migrate --seed
 - Run : php artisan passport:install
